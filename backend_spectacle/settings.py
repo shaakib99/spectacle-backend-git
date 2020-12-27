@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'backend_spectacle.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'spectacle',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '',
-        'PORT': 8889
+        'NAME': 'wahidsakib$default',
+        'USER': 'wahidsakib',
+        'PASSWORD': 'Wearwolf67',
+        'HOST': 'wahidsakib.mysql.pythonanywhere-services.com',
+        'PORT': 3306
         # 'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
