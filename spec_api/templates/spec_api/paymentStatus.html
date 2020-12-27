@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let data = JSON.parse('{{data | escapejs}}')
+        console.log(data.tran_id)
+        window.top.location.href = 'http://127.0.0.1:3000/order-complete/'+ data.tran_id
+        // document.body.append(data)
+    </script>
+</body>
+</html>
